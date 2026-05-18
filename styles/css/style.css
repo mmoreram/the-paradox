@@ -1,8 +1,29 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo img {
-    width: 40px;
+  width: 40px;
 }
+
+.with-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.with-card img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.disclaimer {
+  background-color: var(--primary);
+  color: white;
+  padding: 2px 12px;
+  width: fit-content;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

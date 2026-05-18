@@ -2945,6 +2945,10 @@
             grid-template-columns:repeat(3, minmax(0, 1fr))
         }
 
+        .md\:grid-cols-4 {
+            grid-template-columns:repeat(4, minmax(0, 1fr))
+        }
+
         .md\:grid-cols-\[1\.2fr_1fr\] {
             grid-template-columns:1.2fr 1fr
         }
@@ -3435,13 +3439,13 @@
     --card-foreground: oklch(22% .03 20);
     --popover: oklch(97% .012 60);
     --popover-foreground: oklch(22% .03 20);
-    --primary: oklch(32% .08 20);
+    --primary: oklch(0.44 0.12 305.47);
     --primary-foreground: oklch(97% .012 60);
     --secondary: oklch(92% .02 40);
     --secondary-foreground: oklch(32% .08 20);
     --muted: oklch(93% .015 50);
     --muted-foreground: oklch(45% .03 25);
-    --accent: oklch(78% .06 25);
+    --accent: oklch(0.76 0.08 306.57);
     --accent-foreground: oklch(22% .03 20);
     --destructive: oklch(55% .2 25);
     --destructive-foreground: oklch(97% .012 60);

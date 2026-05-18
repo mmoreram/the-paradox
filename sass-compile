@@ -1,0 +1,3 @@
+#/bin/sh
+
+sass --watch styles/css/style.scss:styles/css/style.css
